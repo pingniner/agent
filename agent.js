@@ -16,7 +16,7 @@ const os = require('os');
 const path = require('path');
 const { exec } = require('child_process');
 
-let agent_version = '1.2.0';
+let agent_version = '1.3.0';
 let action = process.argv[2];
 let key = process.argv[3];
 let type = process.argv[4]; // server or workstation
@@ -434,7 +434,7 @@ if(action == 'init') {
                 cron = '0 * * * * ' + nodePath + ' ' + scriptPath + ' run';
             }
             
-			
+
 
 
             // Check if cron job already exists
