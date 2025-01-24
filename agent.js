@@ -434,6 +434,9 @@ if(action == 'init') {
                 cron = '0 * * * * ' + nodePath + ' ' + scriptPath + ' run';
             }
             
+			
+
+
             // Check if cron job already exists
             exec('crontab -l', (error, stdout, stderr) => {
                 if (error) {
