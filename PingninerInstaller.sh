@@ -36,8 +36,8 @@ fi
 
 
 # Is the server key parameter given ?
-if [ $# -lt 3 ]; then
-	echo "The server key, gateway or type is missing"
+if [ $# -lt 2 ]; then
+	echo "The server key or type is missing"
 	echo "Exiting installer"
 	exit 1;
 fi
