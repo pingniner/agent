@@ -119,7 +119,7 @@ curl -L -s -o /opt/pingniner/agent.js https://github.com/pingniner/agent/release
 
 chmod +x /opt/pingniner/node
 
-/opt/pingniner/node /opt/pingniner/agent.js init "$GATEWAY" "$KEY" "$TYPE"
+/opt/pingniner/node /opt/pingniner/agent.js init "$KEY" "$TYPE"
 
 echo " "
 echo "-------------------------------------"
